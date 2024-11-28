@@ -13,12 +13,11 @@ body {
     width: 200px;
     border: 15px solid #3e62d8;
     border-radius: 50%;
-    background: url(watch.jpg);
+    background-image: url(Clock.jpg);
     background-size: cover;
     box-shadow: -2px, 2px, 0, #3e62d8;
     inset: 0, 0, 20px, rgba(0, 0, 0, 0.5);
 }
-
 .clock::before{
     content: '';
     position: absolute;
